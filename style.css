@@ -131,7 +131,15 @@
   .about-socials * {
     height: 3vh;
   }
-
+  @media (min-width:800px) {
+      .about-socials {
+          height: 5vh;
+      }
+      .about-socials:hover {
+          height: 6vh;
+      }
+  }
+    
   .about-plant {
     grid-column-start: 2;
     
